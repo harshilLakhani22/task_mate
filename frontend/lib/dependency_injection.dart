@@ -7,7 +7,7 @@ import 'package:get/get.dart';
 Future<void> init() async {
   Get.put<MLocalStorage>(MLocalStorage()).init();
 
-  Get.put<GetConnect>(GetConnect()); //initializing GetConnect
+  Get.put<GetConnect>(GetConnect());
 
   Get.lazyPut<RestAPI>(() => RestAPI(), fenix: true);
 
