@@ -4,8 +4,6 @@ import 'package:flutter/material.dart';
 class MColors{
   MColors._();
 
-  // static const Color primary = Color(0xFF4b68ff);
-
   static const Color dividerColor = Color(0xffF1F1F1);
 
 

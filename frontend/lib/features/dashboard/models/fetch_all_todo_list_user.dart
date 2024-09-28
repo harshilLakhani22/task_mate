@@ -1,6 +1,4 @@
 // To parse this JSON data, do
-//
-//     final fetchAllToDoListOfUser = fetchAllToDoListOfUserFromJson(jsonString);
 
 import 'dart:convert';
 
